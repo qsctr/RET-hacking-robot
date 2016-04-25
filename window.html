@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body {
+                font-size: 20px;
+            }
+            #ret {
+                font-size: 120px;
+                text-align: center;
+            }
+            #connect {
+                text-align: center;
+            }
+            #messages {
+                font-family: monospace;
+                padding-left: 10px;
+                padding-right: 10px;
+                display: none;
+            }
+            #messages p {
+                margin: 5px;
+            }
+            #jammer {
+                display: none;
+                background-color: red;
+                color: white;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            #sleep {
+                display: none;
+                background-color: lightgreen;
+                color: black;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            #constant {
+                display: none;
+                background-color: black;
+                color: white;
+                padding: 10px;
+                margin-top: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="ret">
+            RET
+        </div>
+        <div id="connect">
+            <p>
+                Choose port
+            </p>
+        </div>
+        <div id="messages"></div>
+        <div id="jammer">DO NOT PRESS THIS BUTTON</div>
+        <div id="sleep">SLEEP</div>
+        <div id="constant">CONSTANT</div>
+        <script src="main.js"></script>
+        <script src="retclick.js"></script>
+        <script src="sender.js"></script>
+    </body>
+</html>

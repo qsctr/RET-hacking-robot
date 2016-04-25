@@ -1,0 +1,11 @@
+1.0:
+First version.
+
+1.1:
+Change font of the messages to monospace
+
+1.2:
+Add stop command
+
+2.0:
+Use new encoding strategy
